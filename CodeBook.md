@@ -4,7 +4,7 @@ The subject field is an integer code referencing the subject who performed the a
 
 ###Measurements
 
-For each measurement, the mean value (column names including "Mean") and standard deviation (column names including "Sigma") are provided.
+For each measurement, the mean value (column names including "Mean") and standard deviation (column names including "Sigma") are provided. Prior to the summary stage (see below), no calculations or transformations were done on these values (the mean and standard deviation are the calculations performed prior to my retrieval of the data, presumably by the people who originally gathered the the data).
 
 The following is verbatim from the features_info which was retrieved along with the UCI data set, except that column names have been modified to reflect the style of this script's output.
 
@@ -89,4 +89,4 @@ frequencyBodyGyroscopeJerkMagnitudeSigma
 
 ###Summary
 
-The above refers to the har_data detail data set. On the summary file (har_summary), all fields are the same, except that measurement fields represent a mean of observations by subject and activity, and so are shown with a mean.of. prefix, for instance mean.of.timeBodyAccmeterMeanXdimen, mean.of.timeBodyAccmeterMeanYdimen
+The above refers to the har_data detail data set. On the summary file (har_summary), all fields are the same, except that measurement fields represent a mean of observations by subject and activity, and so are shown with a mean.of. prefix, for instance mean.of.timeBodyAccmeterMeanXdimen, mean.of.timeBodyAccmeterMeanYdimen, etc.
