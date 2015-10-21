@@ -19,13 +19,9 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ###List of fields
 subject
-
 activity
-
 timeBodyAccmeterMeanXdimen
-
 timeBodyAccmeterMeanYdimen
-
 timeBodyAccmeterMeanZdimen
 timeBodyAccmeterSigmaXdimen
 timeBodyAccmeterSigmaYdimen
@@ -90,3 +86,7 @@ frequencyBodyGyroscopeMagnitudeMean
 frequencyBodyGyroscopeMagnitudeSigma
 frequencyBodyGyroscopeJerkMagnitudeMean
 frequencyBodyGyroscopeJerkMagnitudeSigma
+
+###Summary
+
+The above refers to the har_data detail data set. On the summary file (har_summary), all fields are the same, except that measurement fields represent a mean of observations by subject and activity, and so are shown with a mean.of. prefix, for instance mean.of.timeBodyAccmeterMeanXdimen, mean.of.timeBodyAccmeterMeanYdimen
