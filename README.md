@@ -1,4 +1,4 @@
-###How to use the uci.har.data.grabber script
+###How to use run_analysis.R
 
 It's all one big script. You could just paste the whole thing into R and run it (might want to leave out the ##start and ##end comments if you're doing this). Assuming you have the UCI HAR data set saved in a folder called "UCI HAR Dataset" in your working directory, it would think for a while and then produce tidy data sets. Alternately, you could wrap the script in code reading uci.har.data.grabber <- function() { at the beginning and then } at the end. This would create a function which can be called by running uci.har.data.grabber() whenever you like.
 
