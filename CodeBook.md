@@ -4,9 +4,9 @@ The subject field is an integer code referencing the subject who performed the a
 
 ###Measurements
 
-For each measurement, the mean value (column names including "Mean") and standard deviation (column names including "Sigma") are provided. Prior to the summary stage (see below), no calculations or transformations were done on these values (the mean and standard deviation are the calculations performed prior to my retrieval of the data, presumably by the people who originally gathered the the data).
+For each measurement, the mean value (column names including "Mean") and standard deviation (column names including "Sigma") are provided. Prior to the summary stage (see below), no calculations or transformations were done on these values (the mean and standard deviation are the calculations performed prior to my retrieval of the data, presumably by the people who originally gathered the data).
 
-The following is verbatim from the features_info which was retrieved along with the UCI data set, except that column names have been modified to reflect the style of this script's output.
+The following is verbatim from the features_info file which was retrieved along with the UCI data set, except that column names have been modified to reflect the style of this script's output.
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAccmeter[XYZ]dimen and timeGyroscope[XYZ]dimen. These time domain signals (prefix 'time') were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (timeBodyAccmeter[XYZ]dimen and timeGravAccmeter[XYZ]dimen) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
