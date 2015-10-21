@@ -1,4 +1,4 @@
-##start of uci.har.data.grabber script
+##start of run_analysis script
 
 list.of.packages <- c("dplyr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
@@ -58,6 +58,7 @@ write.table(har_data,"har_data.txt")
 har_summary <- har_data %>% group_by(subject,activity) %>% summarise_each(funs(mean))
 colnames(har_summary) <- c(colnames(har_summary)[1:2],gsub("^","mean.of.",colnames(har_summary))[3:length(colnames(har_summary))])
 
-write.table(har_summary,"har_summary.txt")
+write.table(har_summary,"har_summary.txt",row.name=FALSE)
+har_summary
 
-##end of uci.har.data.grabber script 
+##end of run_analysis script 
