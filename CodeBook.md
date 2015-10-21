@@ -1,7 +1,10 @@
-###Subject and activity
+###subject and activity
 
+The subject field is an integer code referencing the subject who performed the activity. activity is a plain English description, retrieved by correlating numerical codes in the retrieved y_ label files with the descriptions retrieved from activity_labels.txt
 
 ###Measurements
+
+For each measurement, the mean value (column names including "Mean") and standard deviation (column names including "Sigma") are provided.
 
 The following is verbatim from the features_info which was retrieved along with the UCI data set, except that column names have been modified to reflect the style of this script's output.
 
@@ -16,9 +19,13 @@ These signals were used to estimate variables of the feature vector for each pat
 
 ###List of fields
 subject
+
 activity
+
 timeBodyAccmeterMeanXdimen
+
 timeBodyAccmeterMeanYdimen
+
 timeBodyAccmeterMeanZdimen
 timeBodyAccmeterSigmaXdimen
 timeBodyAccmeterSigmaYdimen
